@@ -169,6 +169,12 @@ a:hover{text-decoration: none; cursor:pointer;}
 .voffset{
 	margin-top:30px;
 }
+/* Dividers */
+
+.b-divider{
+	border-top:1px solid rgba(0,0,0,.1);
+	border-bottom:1px solid rgba(0,0,0,.1);
+}
 
 /* Bloc text custom styling */
 
@@ -400,22 +406,6 @@ button{
 	border-radius:0 0 29px 29px;
 }
 
-/* = Dividers
--------------------------------------------------------------- */
-.divider-h{
-	padding:20px 0;
-}
-.divider-h span{
-	display: block;
-	border-top:1px solid transparent;
-}
-.divider-half{
-	width: 50%;
-	margin: 0 auto;
-}
-.dropdown-menu .divider-h,.dropdown-menu .divider-half{
-	padding:0;
-}
 
 
 
