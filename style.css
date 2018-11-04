@@ -182,6 +182,17 @@ a:hover{text-decoration: none; cursor:pointer;}
 	font-size: 18.000000953674316px;
 	line-height: 30px;
 }
+#bloc-5 p{
+	font-size: 22px;
+	line-height: 30px;
+}
+#bloc-6 p{
+	line-height: 31px;
+	font-size: 22px;
+}
+#bloc-7 p{
+	font-size: 22px;
+}
 
 /* = NavBar
 -------------------------------------------------------------- */
@@ -313,6 +324,10 @@ nav .caret{
 	margin: 6px -5px 0 0!important;
 	float: right;
 }
+.hero .hero-nav{
+	padding-left:inherit;
+	padding-right:inherit;
+}
 
 /* = Bric adjustment margins
 -------------------------------------------------------------- */
@@ -371,6 +386,16 @@ button{
 	font-size:30px!important;
 }
 
+/*  Rounded Image */
+.img-rd{
+	border-radius:6px;
+}
+.img-rd-md{
+	border-radius:20px;
+}
+.img-rd-lg{
+	border-radius:34px;
+}
 
 
 /* = Lists
@@ -564,7 +589,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .device-bloc-text-vc{
 	font-size:50px;
-	margin-top:50%;
+	margin-top:40%;
 }
 .row-clas{
 	display:inline-block;
@@ -617,6 +642,21 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	font-family:"Lato";
 	font-weight:500;
 }
+.hero-bloc-text-sub{
+	font-size:36px;
+}
+.text-item-portfolio-spacer{
+	padding-top:30px;
+}
+.bombout{
+	margin-top:300px;
+}
+.sort-row{
+	overflow:visible;
+}
+.metronome-screenshot{
+	margin-top:100px;
+}
 
 /* = Colour
 -------------------------------------------------------------- */
@@ -626,8 +666,11 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .bgc-white-smoke{
 	background-color:#F6F6F6;
 }
-.bgc-dim-gray{
-	background-color:#646464;
+.bgc-outer-space{
+	background-color:#434444;
+}
+.bgc-powder-blue-web{
+	background-color:#B9DFE8;
 }
 
 /* Icon colour styles */
